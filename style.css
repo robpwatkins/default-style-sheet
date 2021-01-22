@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 10% 1fr 5%;
+  grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer"
+  ;
+}
+
+header {
+  grid-area: header;
+  background: silver;
+}
+
+main {
+  grid-area: main;
+  background: ghostwhite;
+}
+
+footer {
+  grid-area: footer;
+  background: lightgrey;
+}
