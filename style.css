@@ -29,5 +29,5 @@ main {
 
 footer {
   grid-area: footer;
-  background: lightgrey;
+  background: gainsboro;
 }
