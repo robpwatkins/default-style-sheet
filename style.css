@@ -24,7 +24,19 @@ header {
 
 main {
   grid-area: main;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
   background: ghostwhite;
+}
+
+section {
+  width: 31vw;
+  height: 75vh;
+  background: deepskyblue;
+  border-radius: 12px;
 }
 
 footer {
